@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500;600&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-darkNavy: #0a0f25;
+  --color-midnight: #050814;
+  --color-roseGold: #b76e79;
+  --color-neonPink: #ff2a6d;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-cursive: 'Great Vibes', cursive;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-glow: pulse-glow 2.5s infinite alternate ease-in-out;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+
+  @keyframes pulse-glow {
+    0% { transform: scale(0.98); text-shadow: 0 0 10px #ff2a6d, 0 0 20px #ff2a6d; }
+    100% { transform: scale(1.02); text-shadow: 0 0 15px #ff2a6d, 0 0 30px #ffb3c6; }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-midnight text-white overflow-x-hidden;
+    background: radial-gradient(circle at top, #11152a 0%, #050814 100%);
+  }
+}
+
+.glass {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-xl;
+}
+
+.glass-btn {
+  @apply bg-white/10 border border-white/20 backdrop-blur-md px-6 py-3 rounded-full hover:bg-white/20 hover:scale-105 transition-all duration-300 active:scale-95;
+}
+
+.text-shadow-glow {
+  text-shadow: 0 0 15px rgba(255, 42, 109, 0.4);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050814; 
+}
+::-webkit-scrollbar-thumb {
+  background: #ff2a6d; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff7597; 
+}
