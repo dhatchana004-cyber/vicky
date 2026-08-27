@@ -55,7 +55,7 @@ export const loveData = {
     {
       id: "happy",
       title: "Open when you're happy",
-      content: "I love seeing you happy, bestie! Your smile literally lights up the room. Whenever you're feeling this good, I want you to remember that I'm always cheering for you. Keep shining!"
+      content: "I love seeing you happy, Gopzz 🤍! Your smile literally lights up the room. Whenever you're feeling this good, I want you to remember that I'm always cheering for you. Keep shining!"
     },
     {
       id: "sad",
@@ -94,7 +94,7 @@ export const loveData = {
   ],
 
   // Final Surprise Message
-  finalMessage: "Happy Birthday, Bestie. ✨\n\nThank you for being part of my life. This website is only a small collection of our memories, but I hope we continue creating countless beautiful ones together.\n\nYou are an amazing friend, and I am so lucky to have you.",
+  finalMessage: "Happy Birthday, Gopzz 🤍. ✨\n\nThank you for being part of my life. This website is only a small collection of our memories, but I hope we continue creating countless beautiful ones together.\n\nYou are an amazing friend, and I am so lucky to have you.",
 
   // Future Wishes
   futureWishes: [

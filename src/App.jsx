@@ -40,6 +40,17 @@ function App() {
             transition={{ duration: 1.5 }}
             className="w-full flex flex-col items-center"
           >
+            {/* Background Music Player */}
+            <iframe
+              width="0"
+              height="0"
+              src="https://www.youtube.com/embed/D1NPWrX4zs4?autoplay=1&loop=1&playlist=D1NPWrX4zs4"
+              title="Background Music"
+              frameBorder="0"
+              allow="autoplay; encrypted-media"
+              className="hidden"
+            ></iframe>
+
             <Navbar />
             
             <main className="w-full max-w-7xl px-4 flex flex-col items-center gap-32 pb-32">
